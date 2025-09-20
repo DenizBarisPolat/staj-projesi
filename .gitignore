@@ -1,0 +1,26 @@
+# --- Global ignore for the whole project ---
+
+# Java / Maven
+/target/
+/**/target/
+**/*.class
+*.log
+*.iml
+/.mvn
+/.idea
+/.settings
+
+# H2 Database (don’t commit db files)
+/backend-personel/data/
+/backend-personel/*.mv.db
+/backend-personel/*.trace.db
+
+# Node / React
+/frontend/node_modules/
+/frontend/build/
+/frontend/.env
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
