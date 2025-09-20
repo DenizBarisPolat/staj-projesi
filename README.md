@@ -25,11 +25,11 @@ Amaç; personel ekleme, güncelleme, silme ve listeleme işlemlerini gerçekleş
 
 ### Backend - Personel
 1. `cd backend-personel`  
-2. `mvn spring-boot:run`  
+2. `mvnw spring-boot:run`  
 
 ### Backend - Notification
 1. `cd backend-notification`  
-2. `mvn spring-boot:run`  
+2. `mvnw spring-boot:run`  
 
 ### Frontend
 1. `cd frontend`  
